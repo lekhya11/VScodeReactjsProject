@@ -19,3 +19,22 @@ h1 {
   background-color: darkorchid;
   color:aqua;
 }
+.ulElement{
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient( to right, #b96fa1,#5a3f8c);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+ul {
+  background-color: #ffffff20;
+  padding: 50px;
+  border-radius: 20px;
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}

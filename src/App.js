@@ -4,7 +4,7 @@ import "./App.css"
 import DisplayItems from "./component/DisplayItems"
 
 const dataList = [
-  "Cooky","Tata","Mango","Rj","Chimmy"
+  "State","Props","Updating the state","Adding new date to the list","Changing the text based on the state or event"
 ]
 
 class BTSWorld extends Component {
@@ -28,8 +28,8 @@ class BTSWorld extends Component {
   render () {
     const {listItems,inputValue} = this.state
     return (
-      <div>
-        <h1> Learning how to add new date to the list</h1>
+      <div className="ulElement">
+        <h1> Learning Plan in the  react concept</h1>
         <div>
         <input type="text" 
         value={inputValue} //setting the input filed values based on the state value
@@ -38,7 +38,7 @@ class BTSWorld extends Component {
         />
         <button className="button" onClick={this.onAddButton}>ADD</button>
         </div>
-        <ul>
+        <ul >
           {listItems.map(each => 
             //passing the props to the component
             <DisplayItems Item={each} key={each} />)}
