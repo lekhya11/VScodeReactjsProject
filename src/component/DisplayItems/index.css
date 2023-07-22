@@ -1,0 +1,11 @@
+.items {
+    color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:medium;
+    font-weight: bold;
+}
+
+li {
+    list-style-type:square;
+    color:red;
+}
