@@ -4,8 +4,24 @@
     font-size:medium;
     font-weight: bold;
 }
-
+.deleteButton{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: white;
+   text-align: center;
+}
 li {
     list-style-type:square;
     color:red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
 }

@@ -7,7 +7,7 @@
 }
 
 h1 {
-  color:plum;
+  color:gold;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -22,7 +22,7 @@ h1 {
 .ulElement{
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient( to right, #b96fa1,#5a3f8c);
+  background-image: linear-gradient( to right, #b96fa1,rgb(120, 153, 193),cyan);
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -32,7 +32,8 @@ ul {
   background-color: #ffffff20;
   padding: 50px;
   border-radius: 20px;
-  width: 50vh;
+  width: 50%;
+  max-width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
